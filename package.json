@@ -9,12 +9,12 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format": "bunx --bun biome format --write .",
+    "check": "bunx --bun biome check --apply .",
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.5",
-    "prettier": "^3.6.2",
     "turbo": "^2.5.8",
     "typescript": "5.9.2"
   },
