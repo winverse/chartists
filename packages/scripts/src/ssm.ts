@@ -22,7 +22,7 @@ export class SSMScript {
     packageName,
     envFolderPath = './env',
     region = 'ap-northeast-2',
-    ssmPrefix = '/panelips',
+    ssmPrefix = '/chartists',
   }: Option) {
     this.packageName = packageName;
     this.envFolderPath = envFolderPath;
